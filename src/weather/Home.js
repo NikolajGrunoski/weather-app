@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import CurrentWeather from './weatherModes/CurrentWeather'
 import ExtendedForecast from './weatherModes/ExtendedForecast'
-import {addWeatherData} from '../src/redux/actions/weatherAction'
+import {addWeatherData} from '../redux/actions/weatherAction'
 
 import { connect } from 'react-redux'
 
